@@ -1,0 +1,19 @@
+{{title}}
+<p-toolbar>
+  <table>
+    <tr>
+      <td>
+        <!--<button icon="fa-navicon" label="Show" (click)="menu.toggle($event)"></button>-->
+        <button type="button" pButton icon="fa-navicon" ></button>
+      </td>
+      <td>
+        <a routerLink="/as" routerLinkActive="active">AS</a>
+        <a routerLink="/as/as10200" routerLinkActive="active">AS/as10200</a>
+        <a routerLink="/as/as10100" routerLinkActive="active">AS/as10100</a>
+        <a routerLink="/as" routerLinkActive="active">AS</a>
+        <a routerLink="/tx" routerLinkActive="active">TX</a>
+      </td>
+    </tr>
+  </table>
+</p-toolbar>
+<router-outlet></router-outlet>
